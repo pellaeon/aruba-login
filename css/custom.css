@@ -2,8 +2,6 @@
  * Customizations
  */
 #main-box {
-	margin: 0 auto;
-	margin-bottom: 30px;
 	background-color: white;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -11,11 +9,7 @@
 	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.15);
 	-moz-box-shadow: 0 2px 4px rgba(0,0,0,.15);
 	box-shadow: 0 2px 4px rgba(0,0,0,.15);
-
-}
-
-#login, #policy {
-	padding: 10px;
+	padding: 1em;
 }
 
 html, body {
