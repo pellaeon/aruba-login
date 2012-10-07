@@ -7,12 +7,12 @@ html, body {
 
 body {
 	background: rgb(215, 215, 215);
-	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-	background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));    
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#F93723), to(#A21A0B));
+	background: -webkit-radial-gradient(#F93723, #A21A0B);
+	background:    -moz-radial-gradient(#F93723, #A21A0B);
+	background:     -ms-radial-gradient(#F93723, #A21A0B);
+	background:      -o-radial-gradient(#F93723, #A21A0B);
+	background:         radial-gradient(#F93723, #A21A0B);    
 
 }
 
@@ -29,9 +29,9 @@ form {
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 10px;
-	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.15);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,.15);
-	box-shadow: 0 2px 4px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0 8px 16px rgba(0,0,0,.40);
+	-moz-box-shadow: 0 8px 16px rgba(0,0,0,.40);
+	box-shadow: 0 8px 16px rgba(0,0,0,.40);
 	padding: 2em;
 	margin: 20px;
 	float: none;
