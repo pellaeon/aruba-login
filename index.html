@@ -10,22 +10,21 @@
 <meta charset="utf-8">
 </head>
 <body>
-<div class="container">
-	<div class="row">
-		<div id="main-box" class="span3">
-			<form>
-				<legend>登入</legend>
-				<label>帳號</label>
-				<input type="text" placeholder="username@hs.ntnu.edu.tw">
-				<label>密碼</label>
-				<input type="password" placeholder="您的密碼">
-				<button type="submit" class="btn btn-primary">送出 &raquo;</button>
-			</form>
-		</div>
-	</div>
-</div>
+<div id="main-box" class="span3">
+	<form>
+		<legend>登入</legend>
+		<label>帳號</label>
+		<input type="text" placeholder="username@hs.ntnu.edu.tw">
+		<label>密碼</label>
+		<input type="password" placeholder="您的密碼">
+		<button type="submit" class="btn btn-primary">送出 &raquo;</button>
+	</form>
 </div>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+$('#main-box').center();
+</script>
 </body>
 </html>
