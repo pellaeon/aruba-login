@@ -29,3 +29,11 @@ form {
 	margin: 20px;
 	float: none;
 }
+
+input[type=text], input[type=password] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 28px;
+}
