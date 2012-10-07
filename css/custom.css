@@ -61,3 +61,7 @@ span.add-on {
 	width: 10%;
 	height: 28px !important;
 }
+
+#wrapper img {
+	margin: 10px;
+}
