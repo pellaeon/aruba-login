@@ -69,3 +69,8 @@ img#logo {
 	margin: 0 20%;
 	width: 60%;
 }
+
+span#denied {
+	vertical-align: middle;
+	display: none;
+}

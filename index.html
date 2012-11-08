@@ -14,7 +14,9 @@
 	<img id="logo" src="img/hsnu-wireless-logo.png" />
 	<div id="main-box">
 		<form method="post" action="/auth/index.html/u">
-			<legend>登入</legend>
+			<legend>登入
+			<span id="denied" class="label label-important">帳號或密碼錯誤</span>
+		</legend>
 			<div class="input-prepend input">
 				<span class="add-on"><i class="icon-user"></i></span>
 				<input type="text" name="user" placeholder="username@hs.ntnu.edu.tw">
@@ -33,6 +35,20 @@
 <script>
 $('#wrapper').center();
 $('input:first').focus();
+var qs = (function(a) {
+		if (a == "") return {};
+		var b = {};
+		for (var i = 0; i < a.length; ++i)
+		{
+		var p=a[i].split('=');
+		if (p.length != 2) continue;
+		b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+		}
+		return b;
+		})(window.location.search.substr(1).split('&'));
+if ( qs["errmsg"] == "Access Denied" ) {
+	$('span#denied').show();
+}
 </script>
 </body>
 </html>
