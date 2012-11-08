@@ -6,6 +6,9 @@ html, body {
 }
 
 body {
+	/* #2439ba, #0c1b79
+	 * #d5107c, #8b054e
+	 */
 	background: rgb(215, 215, 215);
 	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#F93723), to(#A21A0B));
 	background: -webkit-radial-gradient(#F93723, #A21A0B);
@@ -62,6 +65,7 @@ span.add-on {
 	height: 28px !important;
 }
 
-#wrapper img {
-	margin: 10px;
+img#logo {
+	margin: 0 20%;
+	width: 60%;
 }
