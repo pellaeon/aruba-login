@@ -5,7 +5,7 @@ html, body {
 	height: 100%;
 }
 
-body {
+body, .red {
 	/* #2439ba, #0c1b79
 	 * #d5107c, #8b054e
 	 */
@@ -17,6 +17,48 @@ body {
 	background:      -o-radial-gradient(#F93723, #A21A0B);
 	background:         radial-gradient(#F93723, #A21A0B);    
 
+}
+
+/* =Background Colors*/
+
+.orange {
+	background: rgb(215, 215, 215);
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#FFA640), to(#FF8900));
+	background: -webkit-radial-gradient(#FFA640, #FF8900);
+	background:    -moz-radial-gradient(#FFA640, #FF8900);
+	background:     -ms-radial-gradient(#FFA640, #FF8900);
+	background:      -o-radial-gradient(#FFA640, #FF8900);
+	background:         radial-gradient(#FFA640, #FF8900);    
+}
+
+.purple {
+	background: rgb(215, 215, 215);
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#D5107C), to(#8B054E));
+	background: -webkit-radial-gradient(#D5107C, #8B054E);
+	background:    -moz-radial-gradient(#D5107C, #8B054E);
+	background:     -ms-radial-gradient(#D5107C, #8B054E);
+	background:      -o-radial-gradient(#D5107C, #8B054E);
+	background:         radial-gradient(#D5107C, #8B054E);    
+}
+
+.sky {
+	background: rgb(215, 215, 215);
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#4361C3), to(#112D86));
+	background: -webkit-radial-gradient(#4361C3, #112D86);
+	background:    -moz-radial-gradient(#4361C3, #112D86);
+	background:     -ms-radial-gradient(#4361C3, #112D86);
+	background:      -o-radial-gradient(#4361C3, #112D86);
+	background:         radial-gradient(#4361C3, #112D86);    
+}
+
+.green {
+	background: rgb(215, 215, 215);
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#47D13F), to(#13A20C));
+	background: -webkit-radial-gradient(#47D13F, #13A20C);
+	background:    -moz-radial-gradient(#47D13F, #13A20C);
+	background:     -ms-radial-gradient(#47D13F, #13A20C);
+	background:      -o-radial-gradient(#47D13F, #13A20C);
+	background:         radial-gradient(#47D13F, #13A20C);    
 }
 
 form {

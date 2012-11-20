@@ -15,8 +15,8 @@
 	<div id="main-box">
 		<form method="post" action="/auth/index.html/u">
 			<legend>登入
-			<span id="denied" class="label label-important">帳號或密碼錯誤</span>
-		</legend>
+				<span id="denied" class="label label-important">帳號或密碼錯誤</span>
+			</legend>
 			<div class="input-prepend input">
 				<span class="add-on"><i class="icon-user"></i></span>
 				<input type="text" name="user" placeholder="username@hs.ntnu.edu.tw">
@@ -48,6 +48,20 @@ var qs = (function(a) {
 		})(window.location.search.substr(1).split('&'));
 if ( qs["errmsg"] == "Access Denied" ) {
 	$('span#denied').show();
+}
+switch ( Math.floor((Math.random()*5)+1) ) { 
+	case 2:
+		$('body').addClass('orange');
+		break;
+	case 3:
+		$('body').addClass('purple');
+		break;
+	case 4:
+		$('body').addClass('sky');
+		break;
+	case 5:
+		$('body').addClass('green');
+		break;
 }
 </script>
 </body>
